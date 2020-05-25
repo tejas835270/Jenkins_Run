@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="docker.Grid_docker2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- docker.Grid_docker2 -->
+      <class name="docker.Grid_docker">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- docker.Grid_docker -->
+      <class name="docker.Grid_docker3">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- docker.Grid_docker3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
