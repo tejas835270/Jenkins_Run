@@ -7,38 +7,40 @@ agent any
 stages{
 
 
-	stage('Run Build')
+	stage('Run Test')
 	{
-		steps { 	
-		echo $environment
-		echo "Into Pre Stage"
+		steps 
+		{ 	
 		sh "mvn clean"		
 		}
 		
 	}
+	
 	stage('Run Test')
 	{
-	steps{
-		
-		echo "Job run"
-		sh "mvn test"
-	}
+		steps
+		{
+			
+			echo "Job run"
+			sh "mvn test"
+		}
 	}
 
-			stage('Run Test1')
+	stage('Run Test1')
 	{
-	steps{
-		
-		echo "Job run1"
-	}
+		steps
+		{
+			
+			echo "Job run1"
+		}
 	}	
 	
 		stage('Run Test2')
 	{
-	steps{
-		
-		echo "Job run2"
-	}
+		steps{
+			
+			echo "Job run2"
+		}
 	}
 }
 }
