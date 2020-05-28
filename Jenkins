@@ -3,11 +3,6 @@ pipeline
 	
 agent any
 
-	environment
-	{
-
-	echo "Hello you are into pre stage"
-	}
 
 stages{
 
@@ -20,14 +15,18 @@ stages{
 		}
 		
 	}
-	stage('Run Tests')
+	stage('Run Test')
 	{
-		Run $JOB_NAME = 'Test_Maven_Jenkins'
+	steps{
+		
 		echo "Job run"
+	}
 	}
 
 	post{
+	steps{
 		echo "Hello Post is executed"
+		}
 		}
 }
 }
