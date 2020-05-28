@@ -1,0 +1,30 @@
+pipline
+{
+
+agent any
+
+pre{
+
+	echo "Hello you are into pre stage"
+}
+
+stages{
+
+
+	stage('Run Pre'){
+		steps { 	
+		echo $pre
+		echo "Into Pre Stage"		
+		}
+		
+	}
+	stage('Run Tests'){
+		Run $JOB_NAME = 'Test_Maven_Jenkins'
+		echo "Job run"
+	}
+
+post{
+echo "Hello Post is executed"
+}
+
+}
