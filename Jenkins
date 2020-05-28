@@ -7,7 +7,7 @@ agent any
 stages{
 
 
-	stage('Run Test')
+	stage('Run Build')
 	{
 		steps 
 		{ 	
