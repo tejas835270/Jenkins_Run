@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-25T19:37:52Z" name="Suite" finished-at="2020-05-25T19:38:26Z" duration-ms="33289">
+  <suite started-at="2020-05-28T18:43:26Z" name="Default suite" finished-at="2020-05-28T18:44:09Z" duration-ms="43341">
     <groups>
     </groups>
-    <test started-at="2020-05-25T19:37:52Z" name="Test" finished-at="2020-05-25T19:38:26Z" duration-ms="33289">
+    <test started-at="2020-05-28T18:43:26Z" name="Default test" finished-at="2020-05-28T18:44:09Z" duration-ms="43341">
       <class name="docker.Test1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-25T19:37:52Z" name="setup" finished-at="2020-05-25T19:37:57Z" duration-ms="4451" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-28T18:43:26Z" name="setup" finished-at="2020-05-28T18:43:47Z" duration-ms="21602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test2()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-25T19:37:57Z" name="Test2" finished-at="2020-05-25T19:38:04Z" duration-ms="7032" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-28T18:43:47Z" name="Test2" finished-at="2020-05-28T18:43:52Z" duration-ms="4318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-25T19:38:04Z" name="Test3" finished-at="2020-05-25T19:38:09Z" duration-ms="4722" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-28T18:43:52Z" name="Test3" finished-at="2020-05-28T18:43:55Z" duration-ms="2828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method signature="Test4()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-25T19:38:09Z" name="Test4" finished-at="2020-05-25T19:38:10Z" duration-ms="1269" status="PASS">
+        <test-method signature="Test4()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-28T18:43:55Z" name="Test4" finished-at="2020-05-28T18:43:57Z" duration-ms="2051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test4 -->
-        <test-method signature="test11()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-25T19:38:10Z" name="test11" finished-at="2020-05-25T19:38:26Z" duration-ms="15520" status="PASS">
+        <test-method signature="test11()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-28T18:43:57Z" name="test11" finished-at="2020-05-28T18:44:09Z" duration-ms="12145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test11 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-25T19:38:26Z" name="teardown" finished-at="2020-05-25T19:38:26Z" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:docker.Test1@667a738]" started-at="2020-05-28T18:44:09Z" name="teardown" finished-at="2020-05-28T18:44:09Z" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- docker.Test1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

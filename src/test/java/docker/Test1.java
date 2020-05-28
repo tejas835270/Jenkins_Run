@@ -1,7 +1,13 @@
 package docker;
 
+import java.net.URL;
+
+import org.apache.commons.exec.OS;
+import org.apache.commons.exec.environment.EnvironmentUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -50,8 +56,17 @@ public class Test1 {
 	
 	@BeforeTest
 	public void setup() {
+		
 		System.setProperty("webdriver.chrome.driver", "/Users/tejasshirke-mac/Desktop/Tejas/Pikachu/CICD_for_QA_Youtube_automationworks/chromedriver_83");
+		String url = null;
+		ChromeOptions cap = new ChromeOptions();
+		if (OS.isName("JENKINS_URL"))
+		{
+			cap.addArguments("--headless");
+		}
+		else {
 		 driver = new ChromeDriver();
+		 }
 	}
 	
 	@AfterTest
