@@ -29,5 +29,5 @@ stages{
 	post{
 		echo "Hello Post is executed"
 		}
-
+}
 }
