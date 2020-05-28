@@ -23,10 +23,20 @@ stages{
 	}
 	}
 
-		post{
+			stage('Run Test1')
+	{
+	steps{
 		
-			echo "Hello Post is executed"
-			}
-			
+		echo "Job run1"
+	}
+	}	
+	
+		stage('Run Test2')
+	{
+	steps{
+		
+		echo "Job run2"
+	}
+	}
 }
 }
