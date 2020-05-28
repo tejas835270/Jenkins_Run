@@ -23,10 +23,10 @@ stages{
 	}
 	}
 
-	post{
-	steps{
-		echo "Hello Post is executed"
-		}
-		}
+		post{
+		
+			echo "Hello Post is executed"
+			}
+			
 }
 }
